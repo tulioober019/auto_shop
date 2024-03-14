@@ -28,3 +28,7 @@ $ cd /docker-entrypoint-initdb.d/
 $ mysql -u root -pautoshop --local-infile=1 < auto_shop.sql
 ```
 Para entrar en el sitio web y comprobar su correcto funcionamiento, ir al siguiente enlace http://localhost:8080/index.php.
+
+## 3.- Uso de la aplicación web.
+Al entrar, debería aparecer una página como esta:
+![imagen](https://github.com/tulioober019/auto_shop/assets/134515143/24740c5c-1285-46f3-ae21-292ced63f596)
