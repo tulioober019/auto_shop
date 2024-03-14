@@ -1,0 +1,9 @@
+{
+    "db": {
+        "db_username": "autoshop",
+        "db_password": "autoshop",
+        "db_schema_name": "auto_shop",
+        "db_host": "172.16.40.20",
+        "db_port": 3306
+    }
+}

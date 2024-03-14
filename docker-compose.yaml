@@ -1,0 +1,35 @@
+version: '3.1'
+services:
+  web-001:
+    container_name: web-001
+    build:
+      dockerfile: ./Dockerfile_apache
+      tags:
+        - web-img
+    ports:
+      - "8080:80/tcp"
+    restart: always
+    networks:
+      autoshop-net:
+        ipv4_address: 172.16.40.10
+  
+  mysql-001:
+    container_name: mysql-001
+    build:
+      dockerfile: ./Dockerfile_mysql
+      tags:
+        - mysql-img
+    ports:
+      - "3306:3306/tcp"
+    restart: always
+    networks:
+      autoshop-net:
+        ipv4_address: 172.16.40.20
+
+networks:
+  autoshop-net:
+    name: autoshop-net
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.40.0/24

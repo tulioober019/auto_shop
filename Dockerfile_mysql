@@ -1,0 +1,10 @@
+FROM mysql:latest 
+
+ENV MYSQL_ROOT_PASSWORD=autoshop
+ENV MYSQL_PASSWORD=autoshop
+ENV MYSQL_USER=autoshop
+ENV MYSQL_DATABASE=auto_shop
+
+COPY db-files/ /docker-entrypoint-initdb.d/
+
+EXPOSE 3306
