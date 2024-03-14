@@ -9,3 +9,11 @@ Nota: Esto no es una tienda real. Es utilizado para demostrar como se puede cont
   * Apache2
   * PHP con los siguientes paquetes **no superior a 8.1**
   * MySQL.
+ * En el caso de una instalación de docker:
+  * Tener docker instalado.
+
+## 2. Instalación en docker.
+Utilizar el siguiente comando:
+```bash
+$ docker compose up -d
+```
