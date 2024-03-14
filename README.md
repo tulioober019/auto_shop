@@ -25,6 +25,6 @@ $ docker exec -it mysql-001 bash
 ```
 ```bash
 $ cd /docker-entrypoint-initdb.d/
-$ mysql -u root -pautoshop < auto_shop.sql
+$ mysql -u root -pautoshop --local-infile=1 < auto_shop.sql
 ```
 Para entrar en el sitio web, ir al siguiente enlace http://ip_servicio:8080/index.php
