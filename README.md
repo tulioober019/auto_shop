@@ -17,3 +17,13 @@ Utilizar el siguiente comando:
 ```bash
 $ docker compose up -d
 ```
+
+Puede darse el caso en que no está inicializado la base de datos, para eso haced lo seguiente:
+
+```bash
+$ docker exec -it mysql-001 bash
+```
+```bash
+$ cd /docker-entrypoint-initdb.d/
+$ mysql -u root -pautoshop < auto_shop.sql
+```
