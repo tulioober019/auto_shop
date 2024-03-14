@@ -4,4 +4,8 @@ Este proyecto es un ejemplo que demuestra el funcionamiento básico de una tiend
 Nota: Esto no es una tienda real. Es utilizado para demostrar como se puede contruido una tienda utilizando HTML, CSS, PHP y MySQL.
 
 ## 1. Requisitos previos.
-
+* En el caso de una instalación de un servidor físico:
+  * Una distribución Linux, preferentemente Ubuntu.
+  * Apache2
+  * PHP con los siguientes paquetes **no superior a 8.1**
+  * MySQL.
