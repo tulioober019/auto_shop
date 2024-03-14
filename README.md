@@ -27,4 +27,4 @@ $ docker exec -it mysql-001 bash
 $ cd /docker-entrypoint-initdb.d/
 $ mysql -u root -pautoshop --local-infile=1 < auto_shop.sql
 ```
-Para entrar en el sitio web y comprobar su correcto funcionamiento, ir al siguiente enlace http://localhost:8080/index.php (si estás utilizando Ubuntu Desktop o similar o http://ip_maquina_docker:8080/index.php.
+Para entrar en el sitio web y comprobar su correcto funcionamiento, ir al siguiente enlace http://localhost:8080/index.php.
