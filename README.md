@@ -32,3 +32,11 @@ Para entrar en el sitio web y comprobar su correcto funcionamiento, ir al siguie
 ## 3.- Uso de la aplicación web.
 Al entrar, debería aparecer una página como esta:
 ![imagen](https://github.com/tulioober019/auto_shop/assets/134515143/24740c5c-1285-46f3-ae21-292ced63f596)
+
+### 3.1.- Autenticación.
+Al lanzar la aplicación, por defecto crea un usuario admin con contraseña abc123.. Todas las contraseñas en la base de datos están almacenados en hashes sha-512 para preservar su confidencialidad. Para logearse, débese pulsar en el boton "Iniciar sessión" en la esquina superior derecha. Al pulsar aparecerá una ventana de login con botones de inciar sessión y registrarse. 
+![imagen](https://github.com/tulioober019/auto_shop/assets/134515143/f478f390-994d-400b-9dbe-d2f883b13b3b)
+
+Al iniciar sessión correctamente, aparererá una ventana como este:
+![imagen](https://github.com/tulioober019/auto_shop/assets/134515143/09aaef1e-5236-4481-bba3-8a27b2069b41)
+
